@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>League of Legends Trivia</title>
+  
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href=rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-2.2.3.js" \></script>
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-2"></div>
+
+      <div class="col-xs-8" id="content">
+
+        <div class="row">
+          <h1 class="col-xs-12" id="titleHeader">League of Legends<br>Trivia</h1>
+        </div>
+        <div class="row" id="timer">
+          <div class="row">
+            <div class="col-xs-12" id="timerDisplay">00:00</div>
+          </div>
+          <div class="row" id="buttons">
+            <button class="col-xs-4" id="start">Start</button>
+            <button class="col-xs-4" id="stop">Stop</button>
+            <button class="col-xs-4" id="reset">Reset</button>
+          </div>
+        </div>
+        <div class="row">
+          <form class="col-xs-12" id="questionBox"></form>
+          <div class="col-xs-12" id="feedback"></div>
+        </div>
+
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+  </div>
+
+  <script src="assets/scripts/trivia.js"></script>
+</body>
+
+</html>
